@@ -18,7 +18,7 @@ const initialPosts = [
   },
   {
     id: 2,
-    username: 'creative_soul',
+    username: 'Virat',
     userAvatar: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg',
     image: 'https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg',
     likes: 789,

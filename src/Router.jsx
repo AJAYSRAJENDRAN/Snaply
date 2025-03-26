@@ -18,7 +18,6 @@ function Router() {
 
              {/* <Route path="/feeds" element={<FeedsPage />} /> */}
 
-
                 <Route path="/profile" element={<Profile />} />
 
 
