@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './modules/HomePage/Home';
 import Profile from './modules/userProfile/Profile';
+import Messages from './modules/Message/Messages';
 
 function Router() {
     return (
@@ -21,7 +22,7 @@ function Router() {
                 <Route path="/profile" element={<Profile />} />
 
 
-                {/* <Route path="/messages" element={<Messages />} />  */}
+                <Route path="/messages" element={<Messages />} /> 
 
 
                 <Route path="*" element={<NotFound />} />

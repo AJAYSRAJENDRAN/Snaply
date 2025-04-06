@@ -10,13 +10,15 @@ import Feeds from './components/Feeds'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-    <>
+   <div className='bg-gray-800'>
+   
      <Router/>
    
-    </>
+   
+     </div>
   )
 }
 
